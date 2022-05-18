@@ -1,0 +1,102 @@
+
+.part-2-text{
+  display: flex;
+  flex-direction: column;
+  
+  text-align:left;
+  width: 67%;
+  margin: auto;
+
+}
+.part-2-h4{
+font-weight: lighter;
+}
+.part-2-h1{
+    font-size: 30pt;
+}
+.location-part{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.location-part-1{
+    background-color: rgb(255 180 180);
+    height: auto;
+    padding: 30px;
+    padding-bottom: 10px;
+
+    display: flex;
+    margin: auto;
+    font-size: x-large;
+    border-radius: 15px;
+    font-weight: 300;
+    box-sizing: border-box;
+    background-image: url(./Images/white_patch.webp);
+    background-repeat: no-repeat;
+    background-size: 48% 100%;
+    width: 66%;
+
+    background-position: right;
+}
+.location-input-box-search , .location-input-box button{
+    padding: 10px;
+  
+    border: none;
+    border-radius: 5px;
+}
+.location-part-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location-input-box{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding:5px;
+  border-radius: 7px;
+  width: 65%;
+
+}
+.location-input-box button{
+    background-color: rgb(201, 28, 28);
+    color: white;
+    padding: 13px;
+    width: 100px;
+
+}
+.image-area{
+    margin-top: 10px;
+    display: flex;
+    justify-content: column;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+.location-image{
+   
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.heading-lines{
+   display: flex;
+  justify-content: flex-start;
+    font-size: smaller;
+
+}
+@media screen and (max-width:600px) {
+    .location-part-1{
+        width: 90%;
+    }
+    .location-input-box{
+  width: 100%;
+    }
+    .location-image{
+     width: 100%;
+  
+    }
+    .image-area{
+        margin-top: -40px;
+    }
+}
